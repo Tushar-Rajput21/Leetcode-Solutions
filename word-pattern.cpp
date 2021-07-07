@@ -14,13 +14,15 @@ public:
         
         map<string,char> hash2;
         
-        
-        
-        if(s.size() != pattern.size())
-            return false;
-        
         while(str >> word)
             ss.push_back(word);
+        
+        
+        
+        if(ss.size() != pattern.size())
+            return false;
+        
+        
         
         
             
